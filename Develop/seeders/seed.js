@@ -10,12 +10,12 @@ const transactionSeed = [
     name:{
     type: String,
     trim: true,
-    required: "Enter a name for transaction"
+    required: "Transaction description"
   },
   
     value: {
     type: Number,
-    required: "Enter an amount"
+    required: "Enter amount"
   },
   date: {
     type: Date,
